@@ -5,7 +5,7 @@ from selenium.webdriver.chrome.service import Service
 import datetime
 
 chrome_driver_path = "/home/msi/Ma formation/100 Days of Code - The Complete Python Pro Bootcamp for 2021/C) Intermediate +/Course/Web Scraping & Automation/7) Selenium Webdriver Browser and Game Playing Bot/Chrome Driver 115/chromedriver-linux64/chromedriver"
-brave_browser_path = '/usr/bin/brave-browser'
+# brave_browser_path = '/usr/bin/brave-browser'
 
 
 def get_upgrades(driver: webdriver.Chrome):
@@ -80,7 +80,7 @@ def get_money(driver: webdriver.Chrome):
 ##################################################################################################
 chrome_service = Service(executable_path=chrome_driver_path)
 chrome_options = Options()
-chrome_options.binary_location = brave_browser_path
+# chrome_options.binary_location = brave_browser_path
 driver = webdriver.Chrome(service=chrome_service, options=chrome_options)
 
 driver.get("http://orteil.dashnet.org/experiments/cookie/")
