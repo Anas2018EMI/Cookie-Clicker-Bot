@@ -4,7 +4,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
 import datetime
 
-chrome_driver_path = "/home/msi/Ma formation/100 Days of Code - The Complete Python Pro Bootcamp for 2021/C) Intermediate +/Course/Web Scraping & Automation/7) Selenium Webdriver Browser and Game Playing Bot/Chrome Driver 115/chromedriver-linux64/chromedriver"
+chrome_driver_path = "Paste here your web driver path"
 # brave_browser_path = '/usr/bin/brave-browser'
 
 
